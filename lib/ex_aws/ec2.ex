@@ -366,8 +366,8 @@ defmodule ExAws.EC2 do
     placement: placement,
     private_ip_address: binary,
     ramdisk_id: binary,
-    security_groups: [binary, ...],
-    security_group_ids: [binary, ...],
+    security_group: [binary, ...],
+    security_group_id: [binary, ...],
     subnet_id: binary,
     tag_specifications: [tag_specification, ...],
     user_data: binary
